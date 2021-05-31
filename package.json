@@ -9,7 +9,8 @@
     "react-router-dom": "^5.2.0"
   },
   "scripts": {
-    "dev": "webpack serve --history-api-fallback"
+    "dev": "webpack serve --history-api-fallback",
+    "test": "testcafe chrome e2e/"
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
@@ -22,6 +23,7 @@
     "@types/react-dom": "^17.0.5",
     "@types/react-router-dom": "^5.1.7",
     "babel-loader": "^8.2.2",
+    "testcafe": "^1.14.2",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.0",
     "webpack-dev-server": "^3.11.2"

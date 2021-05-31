@@ -10,6 +10,7 @@ export function Login() {
       onClick={() => {
         localStorage.setItem(TOKEN_KEY, "whatever");
         const postLoginRedirect = localStorage.getItem(POST_LOGIN_REDIRECT_KEY);
+        console.log(postLoginRedirect);
         if (postLoginRedirect) {
           localStorage.removeItem(POST_LOGIN_REDIRECT_KEY);
           history.replace(postLoginRedirect);
