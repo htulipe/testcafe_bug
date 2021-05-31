@@ -25,7 +25,7 @@ There are 2 routes:
 
 There is also a login route ("/login") which can be accessed without being logged in.
 
-## Authentication logic
+# Authentication logic
 
 When user access a route without being logged in. The app saves the requested route in localStorage ("post_login_redirect" key) then redirect the user to "/login".
 
